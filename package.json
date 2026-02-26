@@ -7,8 +7,9 @@
     "src/"
   ],
   "scripts": {
-    "typecheck": "tsc --noEmit",
-    "test": "tsc --noEmit"
+    "test": "tsc --noEmit",
+    "test:enums": "tsc -p tsconfig.test.json && node .test-dist/tests/api-surface.test.js && rm -rf .test-dist",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "typescript": "^5.4.0"

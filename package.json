@@ -1,0 +1,20 @@
+{
+  "name": "@honeide/api",
+  "version": "0.1.0",
+  "description": "Public extension API for Hone IDE — zero runtime, pure TypeScript types",
+  "types": "src/index.ts",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

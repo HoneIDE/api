@@ -10,6 +10,7 @@ export * from './languages';
 export * from './debug';
 export * from './terminal';
 export * from './ai';
+export * from './sync/index';
 
 // === Extension Activation ===
 

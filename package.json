@@ -1,11 +1,21 @@
 {
   "name": "@honeide/api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Public extension API for Hone IDE — zero runtime, pure TypeScript types",
+  "main": "src/index.ts",
   "types": "src/index.ts",
   "files": [
     "src/"
   ],
+  "keywords": ["hone", "ide", "extension", "api", "types"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoneIDE/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoneIDE/api/issues"
+  },
+  "homepage": "https://hone.codes",
   "scripts": {
     "test": "tsc --noEmit",
     "test:enums": "tsc -p tsconfig.test.json && node .test-dist/tests/api-surface.test.js && rm -rf .test-dist",
